@@ -3,7 +3,12 @@
 int main(void)
 {
 int number;
+int returnnumber;
 scanf("%d",&number);
-prime_function(number);
+returnnumber =prime_function(number);
+if(returnnumber == 1)
+  printf("Prime Number");
+else
+  printf("Not Prime")
 return 0;
 }
